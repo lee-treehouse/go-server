@@ -15,13 +15,13 @@ next steps - create the flowchart from the tutorial in mermaid.js and embed in t
 ```mermaid
 %%{init: {'theme': 'default' } }%%
 graph LR
-    A[Server] --> B["/"]
-    B --> E[index.html]
+    A[Server] --> B("/")
+    B --> E(index.html)
     
     
-    A --> C["/hello"]
-    C --> F[hello func]
+    A --> C("/hello")
+    C --> F(hello func)
     
-    A --> D["/form"]
-    D --> G[form.html]        
+    A --> D("/form")
+    D --> G(form.html)        
 ```
