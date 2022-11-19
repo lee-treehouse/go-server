@@ -13,12 +13,15 @@ go server inspired by free code camp 11 in 1 golang tute https://www.youtube.com
 next steps - create the flowchart from the tutorial in mermaid.js and embed in this readme
 
 ```mermaid
-%%{init: {'theme': 'neutral' } }%%
+%%{init: {'theme': 'default' } }%%
 graph TD
     A[Server] --> B["/"]
+    B --> E[index.html]
+    
+    
     A --> C["/hello"]
+    C --> F[hello func]
+    
     A --> D["/form"]
-B --> E[index.html]
-C --> F[hello func]
-D --> G[form.html]     
+    D --> G[form.html]        
 ```
