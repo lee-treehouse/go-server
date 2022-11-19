@@ -14,7 +14,7 @@ next steps - create the flowchart from the tutorial in mermaid.js and embed in t
 
 ```mermaid
 %%{init: {'theme': 'default' } }%%
-graph TD
+graph LR
     A[Server] --> B["/"]
     B --> E[index.html]
     
