@@ -27,3 +27,15 @@ graph LR
     A --> D("/form")
     D --> G(form.html)        
 ```
+
+Mermaid Site 
+
+- https://mermaid.live/
+- https://mermaid-js.github.io/mermaid/#/
+
+
+Other interesting resources
+- https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/
+- https://docs.gitlab.com/ee/user/markdown.html#mermaid
+- https://www.kubernetes.dev/blog/2021/12/01/improve-your-documentation-with-mermaid.js-diagrams/
+- https://kubernetes.io/docs/contribute/style/diagram-guide/
