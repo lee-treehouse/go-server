@@ -28,6 +28,14 @@ graph LR
     D --> G(form.html)        
 ```
 
+```mermaid
+sequenceDiagram
+    Alice->>+John: Can you put mermaid in a PR description
+    John-->>-Alice: Yes you can!
+```
+
+
+
 Mermaid Site 
 
 - https://mermaid.live/
